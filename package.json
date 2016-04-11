@@ -1,0 +1,37 @@
+{
+  "name": "sonumi-led",
+  "version": "0.1.0",
+  "description": "sonumi led blinking device",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garethmidwood/sonumi-led.git"
+  },
+  "keywords": [
+    "sonumi",
+    "led",
+    "gpio",
+    "device"
+  ],
+  "author": "“Gareth <“gmidwood@gmail.com”> (http://www.garethmidwood.co.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garethmidwood/sonumi-led/issues"
+  },
+  "homepage": "https://github.com/garethmidwood/sonumi-led",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "config": "^1.19.0",
+    "onoff": "^1.0.4",
+    "sonumi-logger": "git+ssh://git@github.com/garethmidwood/sonumi-logger.git",
+    "sonumi-device": "git+ssh://git@github.com/garethmidwood/sonumi-device.git"
+  }
+}

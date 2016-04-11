@@ -1,0 +1,9 @@
+{
+  "logging": {
+    "logDir": "/tmp/logs"
+  },
+  "server": {
+    "host": "http://192.168.1.205",
+    "port": 3100
+  }
+}
