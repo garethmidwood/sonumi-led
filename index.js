@@ -1,4 +1,5 @@
 var device = require('sonumi-device');
+var sonumiLogger = require('sonumi-logger');
 var config = require('config');
 
 var gpioSupport = true;
