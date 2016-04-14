@@ -75,12 +75,18 @@ function blink() {
                     resolve();
                 }, 5000);
             } catch (err) {
-                logger.log('Error making LED blink: ' + err);
+                logger.error('Error making LED blink: ' + err);
                 reject();
             }
         }
     );
 }
 
-// and create your device with the config
-new device(config);
+try {
+    // and create your device with the config
+    new device(config);
+} catch (err) {
+    logger.error('Failed! Error!');
+    logger.error(err);
+    process.exit(1);
+}
