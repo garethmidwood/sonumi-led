@@ -31,7 +31,7 @@
   "dependencies": {
     "config": "^1.19.0",
     "onoff": "^1.0.4",
-    "sonumi-logger": "git+ssh://git@github.com/garethmidwood/sonumi-logger.git",
-    "sonumi-device": "git+ssh://git@github.com/garethmidwood/sonumi-device.git"
+    "sonumi-logger": "https://github.com/garethmidwood/sonumi-logger/archive/master.tar.gz",
+    "sonumi-device": "https://github.com/garethmidwood/sonumi-device/archive/master.tar.gz"
   }
 }
